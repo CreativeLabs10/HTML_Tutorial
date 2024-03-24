@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  background: url(backgr.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.2);
+  height: 100px;
+  backdrop-filter: blur(5px);
+}
+
+header:hover {
+    height: 125px;
+    transition: 500ms;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 43px;
+}
+
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: 500ms;
+}
+
+.nav a:hover {
+    color: rgb(0, 135, 54);
+    font-size: 25px;
+}
+
+.log a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: 500ms;
+}
+
+.log a:hover {
+    color: rgb(0, 135, 54);
+    font-size: 25px;
+}
+
+.signup {
+    border: rgba(255, 255, 255, 0.816) 2px solid;
+    padding: 8px 16px;
+    margin-left: 16px;
+    border-radius: 99px;
+}
+
+.signup:hover {
+    border: rgba(0, 113, 0, 0.816) 2px solid;
+}
+
+.hello {
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hello_text {
+    color: aliceblue;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 50px;
+}
+
